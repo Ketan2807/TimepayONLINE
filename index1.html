@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Backup_of_sig.png" alt="" width="200" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="society.html">Smart Society</a>
+          </li>
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Digital Payment
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.timepayonline.com/companyfaq.php?current=FAQ">Timepay-UPI
+                  App</a>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">EVOK-Merchant Payment Solution</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about.html">About us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item"
+                  href="https://www.timepayonline.com/teammember.php?current=Team">Leadership</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://www.timepayonline.com/career.php?current=Career">Careers</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://www.timepayonline.com/companyfaq.php?current=FAQ">FAQ</a></li>
+
+            </ul>
+          </li>
+
+
+
+
+
+
+
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="contact.html">Contact US</a>
+          </li>
+
+
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="login.html">login</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex">
+
+          <button class="btn btn-primary mx-4 rounded-pill" type="submit">Download App</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="DownloadModal" tabindex="-1" aria-labelledby="DownloadModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="DownloadModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+        
+        
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home"><img src="img/section2/Smart_Society.svg" alt="" width="30px"
+            height="30px"> Smart Soceity </a></li>
+      <li><a data-toggle="tab" href="#menu1"><img src="img/section2icons/Accounting_Management.svg" alt="" width="30px"
+            height="30px"> Account Management</a></li>
+      <li><a data-toggle="tab" href="#menu2"><img src="img/section2icons/Digital_Payments.svg" alt="" width="30px"
+            height="30px"> Digital payment</a></li>
+      <li><a data-toggle="tab" href="#menu3"><img src="img/section2icons/Property_Management.svg" alt="" width="30px"
+            height="30px"> Property Management</a></li>
+      <li><a data-toggle="tab" href="#menu4"><img src="img/section2icons/Digital_Merchants.svg" alt="" width="30px"
+            height="30px"> Property Management</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <div class="row">
+          <div class="col p-4">
+            <h1>Get your own society application!</h1>
+            <p>It helps society committees to control and manage financial, security, compliance and
+              critical services for members.</p>
+            <p>The solution involves mobile application for society members, FMS, Security, Merchant and
+              Accountants enabling seamless transaction, enhanced user experience and convenience. </p>
+          </div>
+          <div class="col-auto">
+            <img class="kp" src="img/section2/Smart-Society.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+        <div class="row">
+          <div class="col p-4">
+            <h1>Get your own society application!</h1>
+            <p>It helps society committees to control and manage financial, security, compliance and
+              critical services for members.</p>
+            <p>The solution involves mobile application for society members, FMS, Security, Merchant and
+              Accountants enabling seamless transaction, enhanced user experience and convenience. </p>
+          </div>
+          <div class="col-auto">
+            <img class="kp" src="img/section2/Smart-Society.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <div class="row">
+          <div class="col p-4">
+            <h1>Get your own society application!</h1>
+            <p>It helps society committees to control and manage financial, security, compliance and
+              critical services for members.</p>
+            <p>The solution involves mobile application for society members, FMS, Security, Merchant and
+              Accountants enabling seamless transaction, enhanced user experience and convenience. </p>
+          </div>
+          <div class="col-auto">
+            <img class="kp" src="img/section2/Smart-Society.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="menu3" class="tab-pane fade">
+        <div class="row">
+          <div class="col p-4">
+            <h1>Get your own society application!</h1>
+            <p>It helps society committees to control and manage financial, security, compliance and
+              critical services for members.</p>
+            <p>The solution involves mobile application for society members, FMS, Security, Merchant and
+              Accountants enabling seamless transaction, enhanced user experience and convenience. </p>
+          </div>
+          <div class="col-auto">
+            <img class="kp" src="img/section2/Smart-Society.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="menu4" class="tab-pane fade">
+        <div class="row">
+          <div class="col p-4">
+            <h1>Get your own society application!</h1>
+            <p>It helps society committees to control and manage financial, security, compliance and
+              critical services for members.</p>
+            <p>The solution involves mobile application for society members, FMS, Security, Merchant and
+              Accountants enabling seamless transaction, enhanced user experience and convenience. </p>
+          </div>
+          <div class="col-auto">
+            <img class="kp" src="img/section2/Smart-Society.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Designation : Business Analyst/Sr.Business Analyst
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <p><strong>Experience :</strong> 2-4 years</p>
+          <p><strong>Salary :</strong> (Not Disclosed)</p>
+          <p><strong>Job Location:</strong> Noida/Mumbai</p>
+          <p><strong>Domain:</strong> Merchant Business/Fintech/Banking/Payment Gateway</p>
+          <p><strong>Job description:</strong> <br>We are looking for a Business Analyst who will be the vital
+            link between our information technology capacity and our business objectives by supporting and
+            ensuring the successful completion of analytical, building, testing and deployment tasks of our
+            software product’s features.
+
+          </p>
+
+
+          <h6>Responsibility :</h6>
+          <ul>
+            <li style="padding-bottom: 1em; ;"><strong>Define configuration specifications and business
+                analysis requirements.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Perform quality assurance.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Define reporting and alerting requirements.</strong>
+            </li>
+            <li style="padding-bottom: 1em"><strong>Own and develop relationship with partners, working with
+                them to optimize and enhance our integration.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Staying up-to-date on the process and IT advancements to
+                Automate and modernize system.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Performing requirement analysis.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Help design, document and maintain system
+                processes.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Report on common sources of technical issues or
+                questions and make recommendations to product team.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Communicate key insights and findings to product
+                team.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Constantly be on the lookout for ways to improve
+                monitoring, discover issues and deliver better value to the customer.</strong></li>
+          </ul>
+          <br><br>
+          <h6>Skills :</h6>
+          <ul>
+            <li style="padding-bottom: 1em;"><strong>Previous experience in Business / Systems
+                Analysis..</strong></li>
+            <li style="padding-bottom: 1em"><strong>Experience in analyzing data to draw business-relevant
+                conclusions and in data visualization techniques and tools.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Strong experience in Banking or Finance Domain.</strong>
+            </li>
+            <li style="padding-bottom: 1em"><strong>Fundamental analytical and conceptual thinking
+                skills.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Ability to conduct cost/benefit analysis.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Good knowledge in generating process
+                documentation.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Strong written and verbal communication skills including
+                technical writing skills Continuously discover, evaluate, and implement new technologies
+                to maximize development efficiency.</strong></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Designation : JAVA Developer / Sr.Developer / Associate Team leads
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <p><strong>Experience :</strong> 2-8 years</p>
+          <p><strong>Salary :</strong> (Not Disclosed)</p>
+          <p><strong>Job Location:</strong> Noida/Mumbai/Banglore/Pune</p>
+          <p><strong>Job description:</strong> <br>You will be part of a talented software team. JAVA
+            Developer roles and responsibilities include managing JAVA/ JAVA EE application development
+            while providing expertise in full software development lifecycle, from concept and design to
+            testing. JAVA Team Lead responsibilities include designing, developing, and delivering
+            high-volume, Team Management, low-latency applications.
+
+          </p>
+
+          <h6>Responsibility :</h6>
+          <ul>
+            <li style="padding-bottom: 1em; ;"><strong>Hands-on experience in design and defining
+                architecture of complex web based applications.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Building distributed application using Core JAVA,
+                Spring, Spring boot.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Experience in ORM frameworks such as
+                Hibernate/JPA.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Working experience with SQL and NoSQL databases such as
+                MySQL, PostgreSQL, Oracle, MongoDB/Cassandra.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Hands-on experience on Microservices, REST.</strong>
+            </li>
+            <li style="padding-bottom: 1em"><strong>Continuous Integration tools like Jenkins,
+                Github.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Knowledge of Cloud such as Amazon Web Services.</strong>
+            </li>
+            <li style="padding-bottom: 1em"><strong>Hands-on knowledge of build tools like Maven,
+                Gradle.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Experience working with Git, Junit, Mockito, JIRA and
+                similar tools.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Experience on Apache Spark & other Machine Learning
+                tools will be added advantage.</strong></li>
+          </ul>
+          <br><br>
+          <h6>Skills :</h6>
+          <ul>
+            <li style="padding-bottom: 1em;"><strong>Spring, Spring Boot, Hibernate, RDBMS, NoSQL,
+                multithreading, Java, REST, xml parsers</strong></li>
+            <li style="padding-bottom: 1em"><strong>Should be excellent Team Member with good communication
+                and client handling experience.</strong></li>
+            <li style="padding-bottom: 1em"><strong>For team Lead Position person should have good team
+                leading experience along with Team management Skills.</strong></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Designation : Linux Administration
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <p><strong>Experience :</strong> 0-2 years</p>
+          <p><strong>Salary :</strong> (Not Disclosed)</p>
+          <p><strong>Job Location:</strong> Banglore</p>
+          <p><strong>Number of position :</strong> 3</p>
+          <p><strong>Domain :</strong> software,IT,Banking,BFSI</p>
+          <p><strong>Job Description:</strong> <br><br> <strong> We are urgently looking immediate Joinee for
+              “Linux Administrator” </strong>, who will be responsible for implementing and monitoring the
+            infrastructure at our crucial Client site, in Bangalore.
+
+          </p>
+
+
+          <h6>Responsibility :</h6>
+          <ul>
+            <li style="padding-bottom: 1em; ;"><strong>To collaborate with other team members to develop
+                automation strategies and deployment processes independently.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Shall become an integral part of the team, making every
+                problem of the platform a problem of your own, and solving them accordingly.</strong>
+            </li>
+            <li style="padding-bottom: 1em"><strong>An Independent Support provider at Client Site.</strong>
+            </li>
+            <li style="padding-bottom: 1em"><strong>Must have experience in interacting with
+                client.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Must have exposure to tools for monitoring the
+                environment like Nagaois, ELK, Grafana etc.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Ready to work in 24*7 rotational shift.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Strong shell scripting.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Working on monitoring tool like - zabbix &
+                nagios.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Configuration management tool like ansible will be
+                addon.</strong></li>
+
+          </ul>
+          <br>
+          <h6>Keywords</h6>
+          <ul>
+            <li><strong>Apache WebServer/Tomcat, DNS, RPM, YUM, Shell Script/Python script, Replication of
+                database(Postgresql/Mysql), NTP, Crontab, tar/Tapedrive backup, File
+                Permission.</strong></li>
+          </ul>
+          <br>
+          <h6>Other requirement</h6>
+          <ul>
+            <li><strong>Any one - Redhat Certification OR RHCE certification is preferred, in case of
+                fresher it is mandatory.</strong></li>
+            <li><strong>Preferable Banking domain experience and exposure.</strong></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Designation : Linux Administration
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <p><strong>Experience :</strong> 0-2 years</p>
+          <p><strong>Salary :</strong> (Not Disclosed)</p>
+          <p><strong>Job Location:</strong> Banglore</p>
+          <p><strong>Number of position :</strong> 3</p>
+          <p><strong>Domain :</strong> software,IT,Banking,BFSI</p>
+          <p><strong>Job Description:</strong> <br><br> <strong> We are urgently looking immediate Joinee for
+              “Linux Administrator” </strong>, who will be responsible for implementing and monitoring the
+            infrastructure at our crucial Client site, in Bangalore.
+
+          </p>
+
+
+          <h6>Responsibility :</h6>
+          <ul>
+            <li style="padding-bottom: 1em; ;"><strong>To collaborate with other team members to develop
+                automation strategies and deployment processes independently.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Shall become an integral part of the team, making every
+                problem of the platform a problem of your own, and solving them accordingly.</strong>
+            </li>
+            <li style="padding-bottom: 1em"><strong>An Independent Support provider at Client Site.</strong>
+            </li>
+            <li style="padding-bottom: 1em"><strong>Must have experience in interacting with
+                client.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Must have exposure to tools for monitoring the
+                environment like Nagaois, ELK, Grafana etc.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Ready to work in 24*7 rotational shift.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Strong shell scripting.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Working on monitoring tool like - zabbix &
+                nagios.</strong></li>
+            <li style="padding-bottom: 1em"><strong>Configuration management tool like ansible will be
+                addon.</strong></li>
+
+          </ul>
+          <br>
+          <h6>Keywords</h6>
+          <ul>
+            <li><strong>Apache WebServer/Tomcat, DNS, RPM, YUM, Shell Script/Python script, Replication of
+                database(Postgresql/Mysql), NTP, Crontab, tar/Tapedrive backup, File
+                Permission.</strong></li>
+          </ul>
+          <br>
+          <h6>Other requirement</h6>
+          <ul>
+            <li><strong>Any one - Redhat Certification OR RHCE certification is preferred, in case of
+                fresher it is mandatory.</strong></li>
+            <li><strong>Preferable Banking domain experience and exposure.</strong></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container4"
+  style="padding-left: 65px;padding-right: 65px; background-color: #f7f7f7; padding-top: 65px; padding-bottom: 65px;">
+  <div class="row justify-content-center" style="padding-bottom: 30px;">
+      <div class="col-md-9" style="padding-left: 235px;">
+          <h2>Quick &amp; Easy Process With Best Features</h2>
+      </div>
+  </div>
+  <div class="row align-item-center">
+      <div class="col-lg-4" style="margin-top: 50px;">
+          <div class="row">
+              <div class="col-12" style="margin-top: 50px;">
+                  <span style="margin-top: 19px;"><img src="img/section5/integrated_banking_payments.svg"
+                          alt=""></span>
+                  <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Integrated Banking Systeam</strong>
+                  </h4>
+                  <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Access and connect with all your
+                      bank accounts in a single app.</p>
+              </div>
+              <div class="col-12" style="margin-top: 50px;">
+                  <span><img src="img/section5/complied_data_privacy_policy.svg" alt=""></span>
+                  <div class="k2">
+                      <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Complied with Data privacy
+                              policy</strong></h4>
+                      <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Data privacy covered as per
+                          banking and regulatory compliance..</p>
+                  </div>
+              </div>
+              <div class="col-12" style="margin-top: 50px;">
+                  <span><img src="img/section5/dedicated_helpdesk.svg" alt=""></span>
+                  <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Dedicated Helpdesk</strong></h4>
+                  <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Account and operations team
+                      focused on services beyond software.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4">
+          <div class="col-12">
+              <img src="img/section5/pay_with.png" alt="">
+          </div>
+      </div>
+      <div class="col-lg-4" style="margin-top: 50px;">
+          <div class="col-12" style="margin-top: 50px;">
+              <span><img src="img/section5/secured_certified_platform.svg" alt=""></span>
+              <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Secured & certified Platform</strong></h4>
+              <p style="aliign-text: left;text-align: left;margin-left: 96px;">One of the most secured platform
+                  complied with Banking regulations and following NPCI and RBI guidelines.</p>
+          </div>
+          <div class="col-12" style="margin-top: 50px;">
+              <span><img src="img/section5/unlimited_storage_customisation.svg" alt=""></span>
+              <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Unlimited Storage and
+                      Customisation</strong></h4>
+              <p style="aliign-text: left;text-align: left;margin-left: 96px;">Robust platform with secured
+                  storage space and app customization for each customer.</p>
+          </div>
+          <div class="col-12" style="margin-top: 50px;">
+
+              <span><img src="img/section5/data_intelligence.svg" alt=""></span>
+              <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Data Intelligence</strong></h4>
+              <p style="aliign-text: left;text-align: left;margin-left: 96px;">Intelligence built for client
+                  efficiency and calculative decision.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container2">
+  <div class="row" style="margin-right: 0px;margin-top: 22px;">
+      <div class="col" style="margin-right: 50px;margin-left: 131px;">
+          <div class="img">
+              <div>
+                  <img src="img/section6/3.png" style="width: 300px;">
+              </div>
+              <div style="margin-top: -125px;margin-left: 80px;">
+                  <img style="width:200px;" src="img/section6/4.png">
+              </div>
+          </div>
+      </div>
+      <div class="col-auto" style="margin-top: 55px;margin-right: 72px;">
+          <h3>And this is how TimePay is bringing Innovation!</h3>
+          <p>Our solution has helped in serving different ecosystem with similar <br> requirements. It has been
+              adopted by various communities to solve issues varying from basic <br> needs to managing a complete
+              value chain. Here are some of the cases that will provide deeper <br> understanding of the solution
+              impact.</p>
+      </div>
+  </div>
+</div> <div class="container4"
+style="padding-left: 65px;padding-right: 65px; background-color: #f7f7f7; padding-top: 65px; padding-bottom: 65px;">
+<div class="row justify-content-center" style="padding-bottom: 30px;">
+    <div class="col-md-9" style="padding-left: 235px;">
+        <h2>Quick &amp; Easy Process With Best Features</h2>
+    </div>
+</div>
+<div class="row align-item-center">
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-12" style="margin-top: 50px;">
+                <span style="margin-top: 19px;"><img src="img/section5/integrated_banking_payments.svg"
+                        alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Integrated Banking Systeam</strong>
+                </h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Access and connect with all your
+                    bank accounts in a single app.</p>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/complied_data_privacy_policy.svg" alt=""></span>
+                <div class="k2">
+                    <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Complied with Data privacy
+                            policy</strong></h4>
+                    <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Data privacy covered as per
+                        banking and regulatory compliance..</p>
+                </div>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/dedicated_helpdesk.svg" alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Dedicated Helpdesk</strong></h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Account and operations team
+                    focused on services beyond software.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="col-12">
+            <img src="img/section5/pay_with.png" alt="">
+        </div>
+    </div>
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/secured_certified_platform.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Secured & certified Platform</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">One of the most secured platform
+                complied with Banking regulations and following NPCI and RBI guidelines.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/unlimited_storage_customisation.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Unlimited Storage and
+                    Customisation</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Robust platform with secured
+                storage space and app customization for each customer.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+
+            <span><img src="img/section5/data_intelligence.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Data Intelligence</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Intelligence built for client
+                efficiency and calculative decision.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container2">
+<div class="row" style="margin-right: 0px;margin-top: 22px;">
+    <div class="col" style="margin-right: 50px;margin-left: 131px;">
+        <div class="img">
+            <div>
+                <img src="img/section6/3.png" style="width: 300px;">
+            </div>
+            <div style="margin-top: -125px;margin-left: 80px;">
+                <img style="width:200px;" src="img/section6/4.png">
+            </div>
+        </div>
+    </div>
+    <div class="col-auto" style="margin-top: 55px;margin-right: 72px;">
+        <h3>And this is how TimePay is bringing Innovation!</h3>
+        <p>Our solution has helped in serving different ecosystem with similar <br> requirements. It has been
+            adopted by various communities to solve issues varying from basic <br> needs to managing a complete
+            value chain. Here are some of the cases that will provide deeper <br> understanding of the solution
+            impact.</p>
+    </div>
+</div>
+</div> <div class="container4"
+style="padding-left: 65px;padding-right: 65px; background-color: #f7f7f7; padding-top: 65px; padding-bottom: 65px;">
+<div class="row justify-content-center" style="padding-bottom: 30px;">
+    <div class="col-md-9" style="padding-left: 235px;">
+        <h2>Quick &amp; Easy Process With Best Features</h2>
+    </div>
+</div>
+<div class="row align-item-center">
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-12" style="margin-top: 50px;">
+                <span style="margin-top: 19px;"><img src="img/section5/integrated_banking_payments.svg"
+                        alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Integrated Banking Systeam</strong>
+                </h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Access and connect with all your
+                    bank accounts in a single app.</p>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/complied_data_privacy_policy.svg" alt=""></span>
+                <div class="k2">
+                    <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Complied with Data privacy
+                            policy</strong></h4>
+                    <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Data privacy covered as per
+                        banking and regulatory compliance..</p>
+                </div>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/dedicated_helpdesk.svg" alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Dedicated Helpdesk</strong></h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Account and operations team
+                    focused on services beyond software.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="col-12">
+            <img src="img/section5/pay_with.png" alt="">
+        </div>
+    </div>
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/secured_certified_platform.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Secured & certified Platform</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">One of the most secured platform
+                complied with Banking regulations and following NPCI and RBI guidelines.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/unlimited_storage_customisation.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Unlimited Storage and
+                    Customisation</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Robust platform with secured
+                storage space and app customization for each customer.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+
+            <span><img src="img/section5/data_intelligence.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Data Intelligence</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Intelligence built for client
+                efficiency and calculative decision.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container2">
+<div class="row" style="margin-right: 0px;margin-top: 22px;">
+    <div class="col" style="margin-right: 50px;margin-left: 131px;">
+        <div class="img">
+            <div>
+                <img src="img/section6/3.png" style="width: 300px;">
+            </div>
+            <div style="margin-top: -125px;margin-left: 80px;">
+                <img style="width:200px;" src="img/section6/4.png">
+            </div>
+        </div>
+    </div>
+    <div class="col-auto" style="margin-top: 55px;margin-right: 72px;">
+        <h3>And this is how TimePay is bringing Innovation!</h3>
+        <p>Our solution has helped in serving different ecosystem with similar <br> requirements. It has been
+            adopted by various communities to solve issues varying from basic <br> needs to managing a complete
+            value chain. Here are some of the cases that will provide deeper <br> understanding of the solution
+            impact.</p>
+    </div>
+</div>
+</div> <div class="container4"
+style="padding-left: 65px;padding-right: 65px; background-color: #f7f7f7; padding-top: 65px; padding-bottom: 65px;">
+<div class="row justify-content-center" style="padding-bottom: 30px;">
+    <div class="col-md-9" style="padding-left: 235px;">
+        <h2>Quick &amp; Easy Process With Best Features</h2>
+    </div>
+</div>
+<div class="row align-item-center">
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-12" style="margin-top: 50px;">
+                <span style="margin-top: 19px;"><img src="img/section5/integrated_banking_payments.svg"
+                        alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Integrated Banking Systeam</strong>
+                </h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Access and connect with all your
+                    bank accounts in a single app.</p>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/complied_data_privacy_policy.svg" alt=""></span>
+                <div class="k2">
+                    <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Complied with Data privacy
+                            policy</strong></h4>
+                    <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Data privacy covered as per
+                        banking and regulatory compliance..</p>
+                </div>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/dedicated_helpdesk.svg" alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Dedicated Helpdesk</strong></h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Account and operations team
+                    focused on services beyond software.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="col-12">
+            <img src="img/section5/pay_with.png" alt="">
+        </div>
+    </div>
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/secured_certified_platform.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Secured & certified Platform</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">One of the most secured platform
+                complied with Banking regulations and following NPCI and RBI guidelines.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/unlimited_storage_customisation.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Unlimited Storage and
+                    Customisation</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Robust platform with secured
+                storage space and app customization for each customer.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+
+            <span><img src="img/section5/data_intelligence.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Data Intelligence</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Intelligence built for client
+                efficiency and calculative decision.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container2">
+<div class="row" style="margin-right: 0px;margin-top: 22px;">
+    <div class="col" style="margin-right: 50px;margin-left: 131px;">
+        <div class="img">
+            <div>
+                <img src="img/section6/3.png" style="width: 300px;">
+            </div>
+            <div style="margin-top: -125px;margin-left: 80px;">
+                <img style="width:200px;" src="img/section6/4.png">
+            </div>
+        </div>
+    </div>
+    <div class="col-auto" style="margin-top: 55px;margin-right: 72px;">
+        <h3>And this is how TimePay is bringing Innovation!</h3>
+        <p>Our solution has helped in serving different ecosystem with similar <br> requirements. It has been
+            adopted by various communities to solve issues varying from basic <br> needs to managing a complete
+            value chain. Here are some of the cases that will provide deeper <br> understanding of the solution
+            impact.</p>
+    </div>
+</div>
+</div> <div class="container4"
+style="padding-left: 65px;padding-right: 65px; background-color: #f7f7f7; padding-top: 65px; padding-bottom: 65px;">
+<div class="row justify-content-center" style="padding-bottom: 30px;">
+    <div class="col-md-9" style="padding-left: 235px;">
+        <h2>Quick &amp; Easy Process With Best Features</h2>
+    </div>
+</div>
+<div class="row align-item-center">
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-12" style="margin-top: 50px;">
+                <span style="margin-top: 19px;"><img src="img/section5/integrated_banking_payments.svg"
+                        alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Integrated Banking Systeam</strong>
+                </h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Access and connect with all your
+                    bank accounts in a single app.</p>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/complied_data_privacy_policy.svg" alt=""></span>
+                <div class="k2">
+                    <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Complied with Data privacy
+                            policy</strong></h4>
+                    <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Data privacy covered as per
+                        banking and regulatory compliance..</p>
+                </div>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/dedicated_helpdesk.svg" alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Dedicated Helpdesk</strong></h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Account and operations team
+                    focused on services beyond software.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="col-12">
+            <img src="img/section5/pay_with.png" alt="">
+        </div>
+    </div>
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/secured_certified_platform.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Secured & certified Platform</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">One of the most secured platform
+                complied with Banking regulations and following NPCI and RBI guidelines.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/unlimited_storage_customisation.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Unlimited Storage and
+                    Customisation</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Robust platform with secured
+                storage space and app customization for each customer.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+
+            <span><img src="img/section5/data_intelligence.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Data Intelligence</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Intelligence built for client
+                efficiency and calculative decision.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container2">
+<div class="row" style="margin-right: 0px;margin-top: 22px;">
+    <div class="col" style="margin-right: 50px;margin-left: 131px;">
+        <div class="img">
+            <div>
+                <img src="img/section6/3.png" style="width: 300px;">
+            </div>
+            <div style="margin-top: -125px;margin-left: 80px;">
+                <img style="width:200px;" src="img/section6/4.png">
+            </div>
+        </div>
+    </div>
+    <div class="col-auto" style="margin-top: 55px;margin-right: 72px;">
+        <h3>And this is how TimePay is bringing Innovation!</h3>
+        <p>Our solution has helped in serving different ecosystem with similar <br> requirements. It has been
+            adopted by various communities to solve issues varying from basic <br> needs to managing a complete
+            value chain. Here are some of the cases that will provide deeper <br> understanding of the solution
+            impact.</p>
+    </div>
+</div>
+</div> <div class="container4"
+style="padding-left: 65px;padding-right: 65px; background-color: #f7f7f7; padding-top: 65px; padding-bottom: 65px;">
+<div class="row justify-content-center" style="padding-bottom: 30px;">
+    <div class="col-md-9" style="padding-left: 235px;">
+        <h2>Quick &amp; Easy Process With Best Features</h2>
+    </div>
+</div>
+<div class="row align-item-center">
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-12" style="margin-top: 50px;">
+                <span style="margin-top: 19px;"><img src="img/section5/integrated_banking_payments.svg"
+                        alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Integrated Banking Systeam</strong>
+                </h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Access and connect with all your
+                    bank accounts in a single app.</p>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/complied_data_privacy_policy.svg" alt=""></span>
+                <div class="k2">
+                    <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Complied with Data privacy
+                            policy</strong></h4>
+                    <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Data privacy covered as per
+                        banking and regulatory compliance..</p>
+                </div>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/dedicated_helpdesk.svg" alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Dedicated Helpdesk</strong></h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Account and operations team
+                    focused on services beyond software.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="col-12">
+            <img src="img/section5/pay_with.png" alt="">
+        </div>
+    </div>
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/secured_certified_platform.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Secured & certified Platform</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">One of the most secured platform
+                complied with Banking regulations and following NPCI and RBI guidelines.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/unlimited_storage_customisation.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Unlimited Storage and
+                    Customisation</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Robust platform with secured
+                storage space and app customization for each customer.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+
+            <span><img src="img/section5/data_intelligence.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Data Intelligence</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Intelligence built for client
+                efficiency and calculative decision.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container2">
+<div class="row" style="margin-right: 0px;margin-top: 22px;">
+    <div class="col" style="margin-right: 50px;margin-left: 131px;">
+        <div class="img">
+            <div>
+                <img src="img/section6/3.png" style="width: 300px;">
+            </div>
+            <div style="margin-top: -125px;margin-left: 80px;">
+                <img style="width:200px;" src="img/section6/4.png">
+            </div>
+        </div>
+    </div>
+    <div class="col-auto" style="margin-top: 55px;margin-right: 72px;">
+        <h3>And this is how TimePay is bringing Innovation!</h3>
+        <p>Our solution has helped in serving different ecosystem with similar <br> requirements. It has been
+            adopted by various communities to solve issues varying from basic <br> needs to managing a complete
+            value chain. Here are some of the cases that will provide deeper <br> understanding of the solution
+            impact.</p>
+    </div>
+</div>
+</div> <div class="container4"
+style="padding-left: 65px;padding-right: 65px; background-color: #f7f7f7; padding-top: 65px; padding-bottom: 65px;">
+<div class="row justify-content-center" style="padding-bottom: 30px;">
+    <div class="col-md-9" style="padding-left: 235px;">
+        <h2>Quick &amp; Easy Process With Best Features</h2>
+    </div>
+</div>
+<div class="row align-item-center">
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-12" style="margin-top: 50px;">
+                <span style="margin-top: 19px;"><img src="img/section5/integrated_banking_payments.svg"
+                        alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Integrated Banking Systeam</strong>
+                </h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Access and connect with all your
+                    bank accounts in a single app.</p>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/complied_data_privacy_policy.svg" alt=""></span>
+                <div class="k2">
+                    <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Complied with Data privacy
+                            policy</strong></h4>
+                    <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Data privacy covered as per
+                        banking and regulatory compliance..</p>
+                </div>
+            </div>
+            <div class="col-12" style="margin-top: 50px;">
+                <span><img src="img/section5/dedicated_helpdesk.svg" alt=""></span>
+                <h4 style="margin-left: 102px;margin-top: -64px;"><strong>Dedicated Helpdesk</strong></h4>
+                <p style="text-align: left;margin-left: 99px;margin-top: -2px;">Account and operations team
+                    focused on services beyond software.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="col-12">
+            <img src="img/section5/pay_with.png" alt="">
+        </div>
+    </div>
+    <div class="col-lg-4" style="margin-top: 50px;">
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/secured_certified_platform.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Secured & certified Platform</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">One of the most secured platform
+                complied with Banking regulations and following NPCI and RBI guidelines.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+            <span><img src="img/section5/unlimited_storage_customisation.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Unlimited Storage and
+                    Customisation</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Robust platform with secured
+                storage space and app customization for each customer.</p>
+        </div>
+        <div class="col-12" style="margin-top: 50px;">
+
+            <span><img src="img/section5/data_intelligence.svg" alt=""></span>
+            <h4 style="margin-left: 100px;margin-top: -60px;"><strong>Data Intelligence</strong></h4>
+            <p style="aliign-text: left;text-align: left;margin-left: 96px;">Intelligence built for client
+                efficiency and calculative decision.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container2">
+<div class="row" style="margin-right: 0px;margin-top: 22px;">
+    <div class="col" style="margin-right: 50px;margin-left: 131px;">
+        <div class="img">
+            <div>
+                <img src="img/section6/3.png" style="width: 300px;">
+            </div>
+            <div style="margin-top: -125px;margin-left: 80px;">
+                <img style="width:200px;" src="img/section6/4.png">
+            </div>
+        </div>
+    </div>
+    <div class="col-auto" style="margin-top: 55px;margin-right: 72px;">
+        <h3>And this is how TimePay is bringing Innovation!</h3>
+        <p>Our solution has helped in serving different ecosystem with similar <br> requirements. It has been
+            adopted by various communities to solve issues varying from basic <br> needs to managing a complete
+            value chain. Here are some of the cases that will provide deeper <br> understanding of the solution
+            impact.</p>
+    </div>
+</div>
+</div>
+
+
+
+
+
+  <div class="container" style="margin-top: 50px;">
+    <div class="row justify-content-center">
+      <div class="col-md-9 col-lg-8" style="text-align: center;">
+        <h2>How We Compare Our Pricing </h2>
+      </div>
+    </div>
+
+  </div>
+  <div class="container1">
+    <div class="row">
+      <div class="col-12">
+        <div class=" card1 col-md-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" card2 col-md-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" card3 col-md-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<button type="button" class="btn btn-primary rounded-pill" data-toggle="modal"
+                        data-target="#exampleModal">
+                        Download App
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Download App</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" style="display: contents;">
+                                    <button type="button" class="btn btn-primary rounded-pill"
+                                        style="margin-left: 172px;margin-right: 191px;margin-bottom: 20px;margin-top: 20px;">App
+                                        Store</button>
+                                    <button type="button" class="btn btn-primary rounded-pill"
+                                        style="margin-left: 172px;margin-right: 191px;margin-bottom: 20px;margin-top: 20px;">Play
+                                        Store</button>
+                                </div>
+                                <div class="modal-footer">
+
+                                    <button type="button" class="btn btn-primary align-items-center">Save
+                                        changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

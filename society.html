@@ -1,0 +1,869 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/styles2.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>TimePay:MobileApp</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="margin-bottom: 10px;"><img src="Backup_of_sig.png" alt=""
+                    width="200" height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="index.html"
+                            style="margin-left: 300px;">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Smart Society</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Digital Payment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Upi.html">Timepay-UPI App</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="evok.html">EVOK-Merchant Payment Solution</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="About.html">About us</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="leadership.html">Leadership</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="career.html">Careers</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="contact.html">Contact US</a>
+                    </li>
+
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="login.html">login</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex">
+
+                    <button class="btn btn-primary mx-4 rounded-pill" type="submit">Download App</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="download.jpeg" class="d-block w-100" alt="..." width="1000" height="300">
+          </div>
+          
+        </div>
+      </div>
+      -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top: -18px;">
+        <div class="carousel-indicators">
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="download.jpeg " class="d-block w-100" alt="..." width="1000" height="200">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="vp">Smart Soceity</h1>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+
+
+        <ul class="nav nav-tabs ">
+            <li class="active mx-4"><a data-toggle="tab" href="#home"><img
+                        src="https://www.timepayonline.com/smart_society_icon/admin.svg" alt="" width="30px"
+                        height="30px"> Admin module </a></li>
+            <li class="mx-5"><a data-toggle="tab" href="#menu1"><img
+                        src="https://www.timepayonline.com/smart_society_icon/person.svg" alt="" width="30px"
+                        height="30px"> Resident Module</a></li>
+            <li class="mx-5"><a data-toggle="tab" href="#menu2"><img
+                        src="https://www.timepayonline.com/smart_society_icon/secure_gate.svg" alt="" width="30px"
+                        height="30px"> Security Guard Module</a></li>
+            <li class="mx-5"><a data-toggle="tab" href="#menu3"><img src="img/section2icons/Accounting_Management.svg"
+                        alt="" width="30px" height="30px"> Accountant Module</a></li>
+            <li class="mx-5"><a data-toggle="tab" href="#menu4"><img
+                        src="https://www.timepayonline.com/smart_society_icon/fms.svg" alt="" width="30px"
+                        height="30px"> FMS</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <div class="row " style="margin-top: 50px;">
+                    <div class="col p-3">
+                        <h1>Simplify & organise your Soceity Operation</h1>
+                        <p style="color: lightgray;">It helps society committees to control and manage financial,
+                            security, compliance and
+                            critical services for members.</p>
+                        <ul class="cp">
+                            <li style="padding-bottom: 3em; padding-left: 1em; ">
+                                <h4><strong>One time Maintenance Soceity Operation</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Share announcements / Circulars / Documents with Single click</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Track and resolve member complaints</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Payment through UPI / NEFT / Cash / Cheque</strong></h4>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <img class="kp" src="vp.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col p-3">
+                        <h1>Simplify & organise your Soceity Operation</h1>
+                        <p style="color: lightgray;">It helps society committees to control and manage financial,
+                            security, compliance and
+                            critical services for members.</p>
+                        <ul class="cp">
+                            <li style="padding-bottom: 3em; padding-left: 1em; ">
+                                <h4><strong>One time Maintenance Soceity Operation</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Share announcements / Circulars / Documents with Single click</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Track and resolve member complaints</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Payment through UPI / NEFT / Cash / Cheque</strong></h4>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <img class="kp" src="https://www.timepayonline.com/smart_society_icon/resident_module.png"
+                            alt="" width="400" height="500">
+                    </div>
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col p-3">
+                        <h1>Simplify & organise your Soceity Operation</h1>
+                        <p style="color: lightgray;">It helps society committees to control and manage financial,
+                            security, compliance and
+                            critical services for members.</p>
+                        <ul class="cp">
+                            <li style="padding-bottom: 3em; padding-left: 1em; ">
+                                <h4><strong>One time Maintenance Soceity Operation</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Share announcements / Circulars / Documents with Single click</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Track and resolve member complaints</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Payment through UPI / NEFT / Cash / Cheque</strong></h4>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <img class="kp" src="https://www.timepayonline.com/smart_society_icon/security.png" alt=""
+                            width="250" height="500">
+                    </div>
+                </div>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col p-3">
+                        <h1>Simplify & organise your Soceity Operation</h1>
+                        <p style="color: lightgray;">It helps society committees to control and manage financial,
+                            security, compliance and
+                            critical services for members.</p>
+                        <ul class="cp">
+                            <li style="padding-bottom: 3em; padding-left: 1em; ">
+                                <h4><strong>One time Maintenance Soceity Operation</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Share announcements / Circulars / Documents with Single click</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Track and resolve member complaints</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Payment through UPI / NEFT / Cash / Cheque</strong></h4>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <img class="kp" src=https://www.timepayonline.com/smart_society_icon/accounting.png alt=""
+                            width="500px">
+                    </div>
+                </div>
+            </div>
+            <div id="menu4" class="tab-pane fade">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col p-3">
+                        <h1>Simplify & organise your Soceity Operation</h1>
+                        <p style="color: lightgray;">It helps society committees to control and manage financial,
+                            security, compliance and
+                            critical services for members.</p>
+                        <ul class="cp">
+                            <li style="padding-bottom: 3em; padding-left: 1em; ">
+                                <h4><strong>One time Maintenance Soceity Operation</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Share announcements / Circulars / Documents with Single click</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Track and resolve member complaints</strong></h4>
+                            </li>
+                            <li style="padding-bottom: 3em; padding-left: 1em;">
+                                <h4><strong>Payment through UPI / NEFT / Cash / Cheque</strong></h4>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <img class="kp" src=https://www.timepayonline.com/smart_society_icon/FMS3.png alt="" width="300"
+                            height="400">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="margin-top: 50px;">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-8" style="text-align: center;">
+                <h2>How We Compare Our Pricing </h2>
+            </div>
+        </div>
+
+    </div>
+    <div class="container1" style="margin-bottom: 100px;margin-top: 100px;margin-right: 50px;margin-left: 50px;">
+        <div class="row">
+            <div class="col-12">
+                <div class=" card1 col-md-4"
+                    style="border: 1px solid gray;padding: 20px;border-radius: 20px;width: 350px;">
+                    <h3 style="text-align: center; margin-bottom: 20px;">Standard </h3>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    Maintenance & Admin Module
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Documentation</li>
+                                        <li>Announcements</li>
+                                        <li>Facility booking</li>
+                                        <li>Help desk/complaint management</li>
+                                        <li>Raise Invoice</li>
+                                        <li>Payments collection</li>
+                                        <li>Share Receipts</li>
+                                        <li>MIS / Reports</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Accounting and Audit Report
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Accounting Ledgers</li>
+                                        <p>Trial Balance,P&L,Balance Sheet</p>
+                                        <li>Reports</li>
+                                        <p>Maintenance Reports, Auditor reports as per registrar requirement</p>
+                                        <li>Entries</li>
+                                        <p>Payments, Receipts, Journal, Contra, Purchase, Records for Investments and
+                                            Deposits, Reconciliation</p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    Security
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Gatekeeper Application</li>
+                                        <li>Visitor Entry with QR/OTP</li>
+                                        <li>Share visitor information with society
+                                            members</li>
+                                        <li>Digital records of visitors</li>
+                                        <li> Vendor / Staff attendance</li>
+                                        <li>Security Device</li>
+                                        <li>Voice & data (4G) Connectivity</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill btn-lg" data-toggle="modal"
+                        data-target="#exampleModal" style="align-items: center; margin-top: 30px; margin-left: 63px;">
+                        Request For Quote
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Request For Quote</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" style="display: contents; ">
+                                    <form style="padding: 20px;">
+                                        <div class="mb-3">
+                                            <label for="exampleInputName" class="form-label">Your FullName</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby=Help" placeholder="your fullname">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputNumber" class="form-label">Your Number</label>
+                                            <input type="tel" class="form-control" id="exampleInputNumber"
+                                                aria-describedby="Help" placeholder="your Number">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="your Email">
+                                            
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputText" class="form-label">Location</label>
+                                            <input type="text" class="form-control" id="exampleInputText" placeholder="your Location">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputNumber" class="form-label">No of Flats</label>
+                                            <input type="Number" class="form-control" id="exampleInputNumber"
+                                                aria-describedby="emailHelp" placeholder="No of Flats">
+
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-lg rounded-pill"
+                                            style="margin-left: 145px; margin-top: 25px;">Submit Details</button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" card2 col-md-4"
+                    style="padding: 20px;border: 1px solid gray;border-radius: 20px;width: 350px;margin-left: 50px;height: 400px;margin-top: 0px;">
+                    <h3 style="text-align: center; margin-bottom: 20px;">Standard Plus </h3>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    Maintenance & Admin Module
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Documentation</li>
+                                        <li>Announcements</li>
+                                        <li>Facility booking</li>
+                                        <li>Help desk/complaint management</li>
+                                        <li>Raise Invoice</li>
+                                        <li>Payments collection</li>
+                                        <li>Share Receipts</li>
+                                        <li>MIS / Reports</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                    Accounting and Audit Reports
+                                </button>
+                            </h2>
+                            <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Accounting Ledgers</li>
+                                        <p>Trial Balance,P&L,Balance Sheet</p>
+                                        <li>Reports</li>
+                                        <p>Maintenance Reports, Auditor reports as per registrar requirement</p>
+                                        <li>Entries</li>
+                                        <p>Payments, Receipts, Journal, Contra, Purchase, Records for Investments and
+                                            Deposits, Reconciliation</p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading8">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                    Security
+                                </button>
+                            </h2>
+                            <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Gatekeeper Application</li>
+                                        <li>Visitor Entry with QR/OTP</li>
+                                        <li>Share visitor information with society
+                                            members</li>
+                                        <li>Digital records of visitors</li>
+                                        <li> Vendor / Staff attendance</li>
+                                        <li>Security Device</li>
+                                        <li>Voice & data (4G) Connectivity</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Virtual Manager
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Invoicing of Maintenance</li>
+                                        <li>Maintaining Books of Accounts</li>
+                                        <li>Depositing Cheques in Banks
+                                        </li>
+                                        <li>Reconciliation of Payments</li>
+                                        <li>Training members for usage of Application</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill btn-lg" data-toggle="modal"
+                        data-target="#exampleModal" style="align-items: center; margin-top: 30px; margin-left: 63px;">
+                        Request For Quote
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Request For Quote</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" style="display: contents; ">
+                                    <form style="padding: 20px;">
+                                        <div class="mb-3">
+                                            <label for="exampleInputName" class="form-label">Your FullName</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby=Help" placeholder="your fullname">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputNumber" class="form-label">Your Number</label>
+                                            <input type="tel" class="form-control" id="exampleInputNumber"
+                                                aria-describedby="Help" placeholder="your Number">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="your Email">
+                                            
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputText" class="form-label">Location</label>
+                                            <input type="text" class="form-control" id="exampleInputText" placeholder="your Location">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputNumber" class="form-label">No of Flats</label>
+                                            <input type="Number" class="form-control" id="exampleInputNumber"
+                                                aria-describedby="emailHelp" placeholder="No Of Flats">
+
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-lg rounded-pill"
+                                            style="margin-left: 145px; margin-top: 25px;">Submit Details</button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card3 col-md-4"
+                    style="padding: 20px;border: 1px solid gray;border-radius: 20px;width: 350px;margin-left: 50px;">
+                    <div class="accordion" id="accordionExample">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Premium</h3>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Maintenance & Admin Module
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Documentation</li>
+                                        <li>Announcements</li>
+                                        <li>Facility booking</li>
+                                        <li>Help desk/complaint management</li>
+                                        <li>Raise Invoice</li>
+                                        <li>Payments collection</li>
+                                        <li>Share Receipts</li>
+                                        <li>MIS / Reports</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accounting and Admin Module
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Accounting Ledgers</li>
+                                        <p>Trial Balance,P&L,Balance Sheet</p>
+                                        <li>Reports</li>
+                                        <p>Maintenance Reports, Auditor reports as per registrar requirement</p>
+                                        <li>Entries</li>
+                                        <p>Payments, Receipts, Journal, Contra, Purchase, Records for Investments and
+                                            Deposits, Reconciliation</p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Security
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Gatekeeper Application</li>
+                                        <li>Visitor Entry with QR/OTP</li>
+                                        <li>Share visitor information with society
+                                            members</li>
+                                        <li>Digital records of visitors</li>
+                                        <li> Vendor / Staff attendance</li>
+                                        <li>Security Device</li>
+                                        <li>Voice & data (4G) Connectivity</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading7">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                    On site Manager
+                                </button>
+                            </h2>
+                            <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Payments Collection with timely follow up</li>
+                                        <li>Maintaining Books of Accounts</li>
+                                        <li>Handling member complains</li>
+                                        <li>Sharing meeting schedules</li>
+                                        <li>Recording AGM, MOM, etc.</li>
+                                        <li>Sharing reports and records</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill btn-lg" data-toggle="modal"
+                        data-target="#exampleModal" style="align-items: center; margin-top: 30px; margin-left: 63px;">
+                        Request For Quote
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Request For Quote</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" style="display: contents; ">
+                                    <form style="padding: 20px;">
+                                        <div class="mb-3">
+                                            <label for="exampleInputName" class="form-label">Your FullName</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby=Help" placeholder="your fullname">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputNumber" class="form-label">Your Number</label>
+                                            <input type="tel" class="form-control" id="exampleInputNumber"
+                                                aria-describedby="Help" placeholder="your Number">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="your Email">
+                                            
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputText" class="form-label">Location</label>
+                                            <input type="text" class="form-control" id="exampleInputText" placeholder="your Location">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputNumber" class="form-label">No of Flats</label>
+                                            <input type="Number" class="form-control" id="exampleInputNumber"
+                                                aria-describedby="emailHelp" placeholder="No Of flats">
+
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-lg rounded-pill"
+                                            style="margin-left: 145px; margin-top: 25px;">Submit Details</button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer font-small indigo"
+        style="background: url(download.jpeg) no-repeat center center / cover;">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row" style="color: white;">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><img src="Backup_of_sig.png" alt=""
+                            height="50" width="200" style="margin-left: -55px;"></h5>
+
+                    <p style="text-align: left; color: #ffffff;">Apartment Solution, Merchant Business solutions,
+                        Payment gateway and property management services are delivered with ease and convenience on
+                        single platform. We are certified with ISO 27001:2013 for security and ISO 9001:2015 for
+                        quality.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto" style="margin-top: 20px; text-align: left; padding-left: 42px;">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><strong>Useful Links</strong></h5>
+
+                    <ul class="list-unstyled">
+                        <li style="padding-bottom: 8px;">
+                            <a href="#!" style="color: #ffffff; ">Terms &condition</a>
+                        </li>
+                        <li style="padding-bottom: 8px;">
+                            <a href="#!" style="color: #ffffff;  ">Privacy Policy</a>
+                        </li>
+                        <li style="padding-bottom: 8px;">
+                            <a href="#!" style="color: #ffffff; ">FAQ's</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto" style="text-align: left; margin-top: 20px;">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><strong>Company</strong></h5>
+
+                    <ul class="list-unstyled">
+                        <li style="padding-bottom: 8px;">
+                            <a href="#!" style="color: #ffffff; ">NPST</a>
+                        </li>
+                        <li style="padding-bottom: 8px;">
+                            <a href="#!" style="color: #ffffff; ">About Company</a>
+                        </li>
+                        <li style="padding-bottom: 8px;">
+                            <a href="#!" style="color: #ffffff; ">Exceutive Team</a>
+                        </li>
+                        <li style="padding-bottom: 8px;">
+                            <a href="#!" style="color: #ffffff;">Career</a>
+                        </li>
+                        <li style="padding-bottom: 8px;">
+                            <a href="#!" style="color: #ffffff;">Smart Society</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto" style="margin-top: 20px;">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="text-align: left;"><strong>Reach By Us
+                        </strong></h5>
+
+                    <p style="text-align: left;">306, B-wing, NSIL, Lodha Supremus II, Near New Passport office, Road
+                        No.22, Wagle Industrial Estate, Thane (W)- 400604, Maharashtra
+
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 " style="background-color: #f7f7f7;">© 2021-2025 Timepay All
+            Rights Are Reserved
+            <p>Reproduction, adaptation or translation of this material without prior written permission is prohibited,
+                except as allowed under the copyright laws</p>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
